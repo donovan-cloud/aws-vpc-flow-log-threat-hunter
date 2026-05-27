@@ -1,0 +1,22 @@
+{
+    "AnalysisTimestamp": "2026-05-27T13:30:00Z",
+    "TotalRecordsProcessed": 3,
+    "TotalThreatsIdentified": 2,
+    "AnomaliesLedger": [
+        {
+            "Indicator": "ADMIN_PORT_PROBING",
+            "SourceIp": "198.51.100.5",
+            "TargetIp": "10.0.1.25",
+            "TargetPort": "22",
+            "Protocol": "6",
+            "Severity": "HIGH"
+        },
+        {
+            "Indicator": "MASS_DATA_EXFILTRATION_SPIKE",
+            "SourceIp": "203.0.113.88",
+            "TargetIp": "10.0.1.50",
+            "BytesTransferred": 55000000,
+            "Severity": "CRITICAL"
+        }
+    ]
+}
